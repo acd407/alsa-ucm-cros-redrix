@@ -1,0 +1,25 @@
+# makepkg 构建目录
+src/
+pkg/
+
+# 构建产物（用 makepkg 随时可重建）
+*.pkg.tar
+*.pkg.tar.gz
+*.pkg.tar.bz2
+*.pkg.tar.xz
+*.pkg.tar.zst
+*.pkg.tar.lz4
+*.pkg.tar.lzo
+*.pkg.tar.lrz
+
+# 包签名
+*.pkg.tar.sig
+*.pkg.tar.gz.sig
+*.pkg.tar.bz2.sig
+*.pkg.tar.xz.sig
+*.pkg.tar.zst.sig
+
+# 编辑器/系统残留
+*~
+*.swp
+.DS_Store
